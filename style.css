@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.banner-box{
+    width: 1200px;
+    margin: 0 auto;
+    height: 450px;
+    margin-top:20px;
+    background-image:url(B10A1-Challenge-Begins-main/B10A1-Challenge-Begins-main/assets/Hero-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.banner-contents {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;}
+    
+ .button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: white;
+border: none;
+margin: 20px 25px 20px 25px;
+  }
+
+body{
+    margin:20px 10px 20px 10px ;
+}
+.heading{
+    padding:50px 40px 50px 40px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+.parent1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 200px;
+}
+.parent2{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 200px;
+}
+.parent3{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 200px;
+}
+.inspiration{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.current-target{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.parent4{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    padding: 50px 10px;
+    border: 10px; border-style: solid; color: black;
+}
+.left{
+    width: 50%;
+    height: 500px;
+    border: 5px;border-style: solid;color: black;
+    background-color: azure;
+}
+.centre{
+    width: 50%;
+    height: 500px;
+    border: 5px;border-style: solid;color: black;
+    background-color: yellowgreen;
+}
+.right{
+    width: 50%;
+    height: 500px;
+    border: 5px;border-style: solid;color: black;
+    background-color: pink;
+}
+.ending{
+    width: 800px;
+    margin: 0 auto;
+    height: 400px;
+    margin-top:20px;
+    background-image:url(B10A1-Challenge-Begins-main/B10A1-Challenge-Begins-main/assets/handshake.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.last{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
